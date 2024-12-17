@@ -114,12 +114,15 @@ h6 {
   border-radius: 50%;
   overflow: hidden;
 }
-#header .social-links {
+#header .social-links,.first-lo.social-links {
   margin-top: 40px;
   display: flex;
 }
-
-#header .social-links a,footer .social-links a {
+.first-lo.social-links{
+  margin-top:0px;
+  margin-bottom:24px;
+}
+#header .social-links a,footer .social-links a,.first-lo.social-links a {
   font-size: 16px;
   display: flex;
   justify-content: center;
