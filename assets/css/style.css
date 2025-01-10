@@ -1278,7 +1278,30 @@ footer .social-links{
 .credits a:hover {
   color: #fff;
 }
-
+.resume .resume-item h4.resume-subheading{
+  font-size:14px;
+}
+.navbar.sticky-bottom-btn{
+    position: relative;
+    min-width: auto;
+    width: auto;
+    min-height: auto;
+    height: auto;
+    z-index: 1020;
+    right: 16px;
+    bottom: 20px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    color:#ffffff;
+    background: var(--gradient-heading, linear-gradient(90deg, var(--gradient-color1) 2.60%, var(--gradient-color2) 100%));
+}
+.navbar.sticky-bottom-btn ul{
+  display:flex;
+}
 @media screen and (min-width: 992px) {
   #header h2 span {
     padding-bottom: 6px;
